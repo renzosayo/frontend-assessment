@@ -4,7 +4,7 @@ import logo from "../assets/images/logo1.svg";
 function Footer() {
   return (
     <div className="footer container--full">
-      <div className="container">
+      <div className="footer__content container">
         <img
           src={logo}
           alt="protoapp logo"
