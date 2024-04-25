@@ -1,8 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo1.svg";
 
-// const logo = require("../assets/images/logo1.svg");
-
 function Header() {
   return (
     <div className="header container">

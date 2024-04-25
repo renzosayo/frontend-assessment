@@ -2,7 +2,7 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="section main container">
+    <div className="main container">
       <h1 className="main__title black">Protoapp</h1>
       <p className="section__text main__p black">
         Our landing page template works on all devices, so you only have to set

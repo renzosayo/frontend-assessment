@@ -1,8 +1,12 @@
 import React from "react";
 
-function Card({ item }) {
+function Card({ item, color }) {
   return (
-    <div className="card">
+    <div
+      className={
+        "card" + (color === "yellow" ? " card--yellow" : " card--blue-green")
+      }
+    >
       <div className="card__half">
         <img src={item.img} alt="card image" className="card__img" />
         <button className="card__button">{item.btnText}</button>
