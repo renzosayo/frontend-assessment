@@ -6,13 +6,15 @@ function Section({
   children = null,
   color = "white",
   isFullWidth = false,
+  classToAdd = "",
 }) {
   return (
     <div
       className={
         "section container section--centered" +
         (color === "blue" ? " section--blue" : "") +
-        (isFullWidth ? " container--full" : "")
+        (isFullWidth ? " container--full" : "") +
+        ` ${classToAdd}`
       }
     >
       {title && (

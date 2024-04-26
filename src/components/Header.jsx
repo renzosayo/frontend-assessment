@@ -7,7 +7,9 @@ function Header() {
       <img src={logo} alt="protoapp logo" className="image--small" />
       <h1 className="header__title black">Protoapp</h1>
       <ul className="header__nav black">
-        <li>Home</li>
+        <li>
+          <button className="header__nav__btn btn">Home</button>
+        </li>
       </ul>
     </div>
   );

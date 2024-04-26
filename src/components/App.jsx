@@ -64,7 +64,8 @@ function App() {
         text={
           "The app lorem ipsum app lorem ipsum never gonna give you up app lorem ipsum app lorem ipsum lorem ipsum app lorem ipsum app lorem ipsum"
         }
-      ></Section>
+        classToAdd="meet-protoapp"
+      />
       <Section
         children={
           <>
@@ -80,6 +81,7 @@ function App() {
         color={"blue"}
         isFullWidth={true}
         children={<Download />}
+        classToAdd="deep-dive"
       />
       <Section
         title={"Last Call to Action"}
@@ -90,6 +92,7 @@ function App() {
             <Card item={cards[1]} color="blue-green" />
           </div>
         }
+        classToAdd="call-to-action"
       />
       <Footer />
     </>
