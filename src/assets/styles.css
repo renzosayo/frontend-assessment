@@ -24,7 +24,7 @@ body {
     url("./images/bg-decals3.svg");
   background-repeat: no-repeat;
   /* sloppy positioning */
-  background-position: 60% top, left 10%, right 92.3%;
+  background-position: 60% top, left 10%, right calc(100% - 270px);
 }
 
 .image--small {
