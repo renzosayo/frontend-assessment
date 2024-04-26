@@ -24,7 +24,7 @@ body {
     url("./images/bg-decals3.svg");
   background-repeat: no-repeat;
   /* sloppy positioning */
-  background-position: top right, left 10%, right 92.3%;
+  background-position: 60% top, left 10%, right 92.3%;
 }
 
 .image--small {
@@ -147,12 +147,18 @@ body {
 }
 
 .main__btn {
+  border: 3px solid var(--blue);
   padding: 12px 18px;
   font-size: var(--small);
-  border: none;
   border-radius: 6px;
   color: var(--white);
   background-color: var(--blue);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.main__btn:hover {
+  background-color: var(--white);
+  color: var(--blue);
 }
 
 .deep-dive {
@@ -387,4 +393,6 @@ body {
   .container--narrow {
     width: 80dvw;
   }
+
+  /* remove big bg on small screens for readability */
 }
